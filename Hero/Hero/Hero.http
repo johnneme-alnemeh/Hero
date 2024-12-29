@@ -1,0 +1,35 @@
+@Hero_HostAddress = http://localhost:5284
+
+GET {{Hero_HostAddress}}/weatherforecast/
+Accept: application/json
+###
+GET {{Hero_HostAddress}}/api/superhero
+Accept: application/json
+###
+GET {{Hero_HostAddress}}/api/superhero/3
+Accept: application/json
+###
+POST {{Hero_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+    "id": 5,
+    "name": "Batman",
+    "firstName": "Bruce",
+    "lastName": "Wayne",
+    "place": "Gotham City"
+}
+###
+PUT {{Hero_HostAddress}}/api/superhero/3
+Content-Type: application/json
+
+{
+  
+    "name": "Ironman",
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "place": "New York City"
+}
+###
+DELETE {{Hero_HostAddress}}/api/superhero/5
+Content-Type: application/json
