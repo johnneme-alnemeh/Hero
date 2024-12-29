@@ -2,7 +2,7 @@
 Project Description
 This ASP.NET project provides a RESTful API for managing a superhero database. It supports CRUD (Create, Read, Update, Delete) operations, enabling the addition, retrieval, modification, and removal of superhero records.
 
-The API is built using ASP.NET Core and SQLite (or any other configured database) for persistence. It serves as a backend for applications that require superhero data.
+The API is built using ASP.NET Core and PostgreSQL (or any other configured database) for persistence. It serves as a backend for applications that require superhero data.
 
 # CRUD Operations:
 Create new superhero.
