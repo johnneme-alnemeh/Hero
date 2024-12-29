@@ -4,7 +4,6 @@ This ASP.NET project provides a RESTful API for managing a superhero database. I
 
 The API is built using ASP.NET Core and SQLite (or any other configured database) for persistence. It serves as a backend for applications that require superhero data.
 
-# Features:
 # CRUD Operations:
 Create new superhero.
 Retrieve all superheroes or a specific superhero by ID.
