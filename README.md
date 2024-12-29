@@ -11,7 +11,7 @@ Retrieve all superheroes or a specific superhero by ID.
 Update superhero details.
 Delete superheroes.
 Database: Uses PostgreSQL as the default database.
-API Endpoints:
+# API Endpoints:
 Get all superheroes (GET /api/superhero)
 Get superhero by ID (GET /api/superhero/{id})
 Create superhero (POST /api/superhero)
